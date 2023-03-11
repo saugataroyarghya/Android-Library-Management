@@ -2,6 +2,7 @@ package Assignment;
 
 public class B1 {
     String a, b;
+
     float number;
     double another_number;
 
@@ -14,10 +15,22 @@ public class B1 {
     }
 
     public B1(String a, String b, float number) {
+
         this.a = a;
         this.b = b;
-        this.number = number;
+        this.conflicting_number = conflicting_number;
     }
+
+
+
+    public double getConflicting_number() {
+        return conflicting_number;
+    }
+
+    public void setConflicting_number(double conflicting_number) {
+        this.conflicting_number = conflicting_number;
+    }
+
 
     public String getA() {
         return a;
